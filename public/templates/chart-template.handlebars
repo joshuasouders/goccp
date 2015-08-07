@@ -1,0 +1,40 @@
+<div class="chart-wrap">
+<div class="chartitle">
+  <div class="title">
+    <h3>{{title}}</h3>
+    <div class="settings-toggle">
+      <i class="icon-reorder"></i>
+    </div>
+    <div class="subtitle">{{title}}{{category}}</div>
+  </div>
+  <div class="settings-container">
+    <div class="settings">
+      <div class="btn-group btn-group-sm">
+        <!-- <button class="remove btn btn-mini"><i class="icon-remove"></i></button> -->
+        <button class="chartTool embed btn btn-default" data-toggle="tooltip" title="Embed this chart"><i class="icon-code"></i></button>
+        <button class="chartTool data-table btn btn-default" data-toggle="tooltip" title="Table View"><i class="icon-table"></i> </button>
+        <button class="chartTool download btn btn-default" data-toggle="tooltip" title="Download Data"><i class="icon-cloud-download"></i></button>
+        <button class="chartTool sortDesc btn btn-default" data-toggle="tooltip" title="Sort Descending"><i class="icon-chevron-down"></i></button>
+        <button class="chartTool sortAsc btn btn-default" data-toggle="tooltip" title="Sort Ascending"><i class="icon-chevron-up"></i></button>
+        <button class="chartTool sortAlpha btn btn-default" data-toggle="tooltip" title="Sort Alphabetically"><i class="icon-sort-by-alphabet"></i></button>
+      </div>
+    </div>
+    <div class="embed-container">
+      Copy and paste this HTML into your website or blog:
+      <textarea id="codeEmbed" class="code" cols="60" rows="4" readonly="">&lt;iframe width='500' height='300' frameBorder='0' src=''&gt;&lt;/iframe&gt;</textarea>
+    </div>
+  </div>
+</div>
+<div class="chart-container">
+  <div class="loader loading">
+    <img src="img/loader.gif" />
+  </div>
+  <div class="error">Error Loading Data</div>
+  <div class="chart" id="id_{{code}}"></div>
+  <div class="more-info">No additional information.</div>
+</div>
+<div class="chart-source">
+  <p class="source"></p>
+  <div class="info"><i class="icon-info-sign"></i></div>
+</div>
+</div>

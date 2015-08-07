@@ -1,0 +1,25 @@
+{
+  "name": "return-data",
+  "version": "0.0.3",
+  "description": "return-data ===========",
+  "author": {
+    "name": "Frank Rowe"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankrowe/return-data"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankrowe/return-data/issues"
+  },
+  "homepage": "https://github.com/frankrowe/return-data",
+  "dependencies": {
+    "csv": "^0.3.7"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+  body {
+
+  }
+  .login h4 {
+    margin: 0px !important;
+  }
+  .header {
+    background: #444;
+    color: #fff;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    margin: 0;
+    line-height: 50px;
+    float: left;
+  }
+  .header a {
+    color: #fff;
+  }
+  .header h4 {
+    margin: 0;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+  }
+  .header .logout {
+    float: right;
+  }
+  .header .logout a {
+    color: #fff;
+    line-height: 50px;
+  }
+  table .label {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+  }
+  .inverse {
+    background: #444;
+    color: #fff;
+  }
+  .remove {
+    cursor: pointer;
+  }
+  .remove:hover {
+    color: #444;
+  }
+
+  .sidebar {
+    background: #fff;
+    padding-top: 0px;
+    border-right: 1px solid #fff;
+  }
+  .sidebar p {
+    font-size: 12px;
+  }
+  #quickChange .form-group {
+    margin: 10px 0 10px 0;
+  }
+  .menu {
+    margin-bottom: 20px;
+  }
+  </style>
+  <body>
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-6">
+        <h1><a href="/dashboards/countycomparison/admin">Admin Tool</a></h1> <h4><a href="/dashboards/countycomparison/">Comparison Dashboard</a></h4>
+      </div>
+      <div class="col-md-6">
+      <% if(auth.user){ %>
+        <div class="logout">
+          <a href="/dashboards/countycomparison/admin/logout">Logout</a>
+        </div>
+      <% } %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <% include menu %>
+      </div>
+    </div>

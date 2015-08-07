@@ -1,0 +1,25 @@
+<style>
+  .columnChooser {
+    display: none;
+    overflow-y: scroll;
+  }
+  .columnChooser table {
+    margin-top: 10px;
+  }
+</style>
+<% var columnChooser =  '';
+  tableInfo.forEach(function(table){
+    columnChooser += '<table class="table table-bordered table-hover table-condensed"><thead>';
+    columnChooser += '<tr><td colspan="2" class="inverse"><strong>' + table.name + '</strong></td></tr>';
+    columnChooser += '</thead><tbody>';
+    table.columns.forEach(function(column, idx){
+      if(column.name !== 'State') columnChooser += '<tr><td><input value="' + column.tableColumnId + '" type="checkbox"></td><td>' + column.name + '</td></tr>';
+    })
+  })
+  columnChooser += '</tbody></table>';
+  %>
+<div class="columnChooser">
+
+  <%- columnChooser %>
+  <button type="button" class="btn btn-primary submitColumnChooser">Add Selected Columns</button>
+</div>

@@ -1,0 +1,10 @@
+<% if(page !== 'login') { %>
+<div class="menu">
+  <ul class="nav nav-pills">
+    <li <% if(page === 'home') { %> class="active" <% } %>><a href="/dashboards/countycomparison/admin">Home</a></li>
+    <li <% if(page === 'counties') { %> class="active" <% } %>><a href="/dashboards/countycomparison/admin/update/counties">Counties</a></li>
+    <li <% if(page === 'states') { %> class="active" <% } %>><a href="/dashboards/countycomparison/admin/update/states">States</a></li>
+    <li <% if(page === 'metros') { %> class="active" <% } %>><a href="/dashboards/countycomparison/admin/update/metros">Metros</a></li>
+  </ul>
+</div>
+<% } %>

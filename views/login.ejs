@@ -1,0 +1,28 @@
+<% var title = 'Admin Tool' %>
+<% include head %>
+
+<div class="row login">
+  <div class="col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4>Login</h4></div>
+      <div class="panel-body">
+        <form method="post" action="/dashboards/countycomparison/admin/login">
+          <p>
+            <label>Username:</label>
+            <input type="text" name="username">
+          </p>
+          <p>
+            <label>Password:</label>
+            <input type="password" name="password">
+          </p>
+          <p>
+            <input type="submit" value="Login" class="btn btn-primary">
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<% include foot %>

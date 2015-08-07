@@ -1,0 +1,1133 @@
+
+{
+    "counties": {
+        "category": [
+            {
+                "name": "Demographics",
+                "subcategory": [
+                    {
+                        "name": "Population",
+                        "table": "cnty_population",
+                        "criteria": [
+                            {
+                                "name": "Total Population, 2010 ",
+                                "code": "C001",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Total Population, 2012 ",
+                                "code": "C002",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Total Population, 2000 ",
+                                "code": "C003",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Change, 2000-2010 ",
+                                "code": "C004",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Change, 2000-2010 (%)",
+                                "code": "C005",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Total Population, 1990 ",
+                                "code": "C006",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Change, 1990-2000 ",
+                                "code": "C007",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Change, 1990-2000  (%)",
+                                "code": "C008",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Density ",
+                                "code": "C009",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Median Age",
+                                "code": "C010",
+                                "source": "U.S. Census Bureau"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Income",
+                        "table": "cnty_income",
+                        "criteria": [
+                            {
+                                "name": "Median Household Income ($)",
+                                "code": "C011"
+                            },
+                            {
+                                "name": "Per Capita Personal Income ($)",
+                                "code": "C012"
+                            },
+                            {
+                                "name": "Total Personal Income ($ thousands)",
+                                "code": "C013"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Education",
+                "subcategory": [
+                    {
+                        "name": "Educational Attainment",
+                        "table": "cnty_education_attainment",
+                        "criteria": [
+                            {
+                                "name": "Bachelor's Degree Attainment (%)",
+                                "code": "C014"
+                            },
+                            {
+                                "name": "High School Attainment (%)",
+                                "code": "C015"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Higher Education",
+                        "table": "cnty_education_higher",
+                        "criteria": [
+                            {
+                                "name": "Number of 2-Year Colleges",
+                                "code": "C016"
+                            },
+                            {
+                                "name": "Number of 4-Year Colleges and Universities",
+                                "code": "C017"
+                            },
+                            {
+                                "name": "2-Year College Enrollment",
+                                "code": "C018"
+                            },
+                            {
+                                "name": "4-Year College/University Enrollment",
+                                "code": "C019"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "K through 12",
+                        "table": "cnty_educationk12",
+                        "criteria": [
+                            {
+                                "name": "Public School Enrollment, Elementary",
+                                "code": "C020"
+                            },
+                            {
+                                "name": "Public School Enrollment, Secondary",
+                                "code": "C021"
+                            },
+                            {
+                                "name": "Public School Enrollment, Total",
+                                "code": "C022"
+                            },
+                            {
+                                "name": "Annual Number of Public High School Graduates",
+                                "code": "C023"
+                            },
+                            {
+                                "name": "Students Enrolled in Career and Technical Education Programs",
+                                "code": "C024"
+                            },
+                            {
+                                "name": "Public School Student-Teacher Ratio",
+                                "code": "C025"
+                            },
+                            {
+                                "name": "Public School Expenditures Per Pupil ($)",
+                                "code": "C026"
+                            },
+                            {
+                                "name": "Average Salary for Public School Teachers ($)",
+                                "code": "C027"
+                            },
+                            {
+                                "name": "Number of Public Elementary Schools",
+                                "code": "C028"
+                            },
+                            {
+                                "name": "Number of Public Middle/Combined Schools",
+                                "code": "C029"
+                            },
+                            {
+                                "name": "Number of Public High Schools",
+                                "code": "C030"
+                            },
+                            {
+                                "name": "Number of Public Schools, Total",
+                                "code": "C031"
+                            },
+                            {
+                                "name": "Number of Private Schools",
+                                "code": "C032"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Quality of Life",
+                "subcategory": [
+                    {
+                        "name": "Cost of Living",
+                        "table": "cnty_qualitylife_costliving",
+                        "criteria": [
+                            {
+                                "name": "Cost of Living Index",
+                                "code": "C033"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Public Safety",
+                        "table": "cnty_qualitylife_publicsafety",
+                        "criteria": [
+                            {
+                                "name": "Crimes Per 100k Residents",
+                                "code": "C034"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Housing",
+                        "table": "cnty_qualitylife_housing",
+                        "criteria": [
+                            {
+                                "name": "Average Sale Price of a Home ($)",
+                                "code": "C035"
+                            },
+                            {
+                                "name": "Median Sale Price of a Home ($)",
+                                "code": "C036"
+                            },
+                            {
+                                "name": "Number of Housing Units Sold",
+                                "code": "C037"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Business Support",
+                "subcategory": [
+                    {
+                        "name": "Government",
+                        "table": "cnty_government",
+                        "criteria": [
+                            {
+                                "name": "County Seat",
+                                "code": "C038"
+                            },
+                            {
+                                "name": "Form of Government",
+                                "code": "C039"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Geography",
+                "subcategory": [
+                    {
+                        "name": "Land Area, Elevation, and Shoreline",
+                        "table": "cnty_geog_land_area_elev",
+                        "criteria": [
+                            {
+                                "name": "Land Area in Square Miles",
+                                "code": "C040"
+                            },
+                            {
+                                "name": "Highest Elevation in Feet",
+                                "code": "C041"
+                            },
+                            {
+                                "name": "Lowest Elevation in Feet",
+                                "code": "C042"
+                            },
+                            {
+                                "name": "Miles of Shoreline",
+                                "code": "C043"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Transportation",
+                "subcategory": [
+                    {
+                        "name": "Air",
+                        "table": "cnty_transportation_air",
+                        "criteria": [
+                            {
+                                "name": "Miles to Nearest Primary Commercial Airport",
+                                "code": "C044"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Commuting",
+                        "table": "cnty_transportation_commuting",
+                        "criteria": [
+                            {
+                                "name": "Average Travel Time to Work (in minutes)",
+                                "code": "C045"
+                            },
+                            {
+                                "name": "Workers Commuting Into the County",
+                                "code": "C046"
+                            },
+                            {
+                                "name": "Workers Commuting Out of the County",
+                                "code": "C047"
+                            },
+                            {
+                                "name": "Net Workers Commuting Into/Out of the County",
+                                "code": "C048"
+                            },
+                            {
+                                "name": "Residents Who Work in Own County",
+                                "code": "C049"
+                            },
+                            {
+                                "name": "Percentage of Employed Residents Who Work in Own County (%)",
+                                "code": "C050"
+                            },
+                            {
+                                "name": "Percentage of County Jobs Held by Residents (%)",
+                                "code": "C051"
+                            },
+                            {
+                                "name": "Percentage of County Jobs Held by Non-Residents (%)",
+                                "code": "C052"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taxes",
+                "subcategory": [
+                    {
+                        "name": "Personal Income Taxes",
+                        "table": "cnty_taxes_income_personal",
+                        "criteria": [
+                            {
+                                "name": "Local Personal Income Tax Rate (%)",
+                                "code": "C053"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Property Taxes",
+                        "table": "cnty_taxes_property",
+                        "criteria": [
+                            {
+                                "name": "Combined State and County Real Property Tax Rate ($)",
+                                "code": "C054"
+                            },
+                            {
+                                "name": "County Business Personal Property Tax Rate ($)",
+                                "code": "C055"
+                            },
+                            {
+                                "name": "Manufacturing/R&D Machinery and Equipment Exemption",
+                                "code": "C056"
+                            },
+                            {
+                                "name": "Manufacturing/R&D Inventory Exemption",
+                                "code": "C057"
+                            },
+                            {
+                                "name": "Commercial Inventory Exemption",
+                                "code": "C058"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tax Incentive Programs",
+                        "table": "cnty_taxes_incentive_program",
+                        "criteria": [
+                            {
+                                "name": "Acreage in State Enterprise Zones",
+                                "code": "C059"
+                            },
+                            {
+                                "name": "One Maryland Jurisdictions",
+                                "code": "C060"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Workforce",
+                "subcategory": [
+                    {
+                        "name": "Availability",
+                        "table": "cnty_workforce_availability",
+                        "criteria": [
+                            {
+                                "name": "Labor Force",
+                                "code": "C061"
+                            },
+                            {
+                                "name": "Employment",
+                                "code": "C062"
+                            },
+                            {
+                                "name": "Unemployment",
+                                "code": "C063"
+                            },
+                            {
+                                "name": "Unemployment Rate (%)",
+                                "code": "C064"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Male (%)",
+                                "code": "C065"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Female (%)",
+                                "code": "C066"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Total (%)",
+                                "code": "C067"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Employment By Industry",
+                        "table": "cnty_workforce_employment_industry",
+                        "criteria": [
+                            {
+                                "name": "Average Annual Employment, Tota",
+                                "code": "C068"
+                            },
+                            {
+                                "name": "Average Annual Employment, Federal Government",
+                                "code": "C069"
+                            },
+                            {
+                                "name": "Average Annual Employment, State Government",
+                                "code": "C070"
+                            },
+                            {
+                                "name": "Average Annual Employment, Local Government",
+                                "code": "C071"
+                            },
+                            {
+                                "name": "Average Annual Employment, Total Government",
+                                "code": "C072"
+                            },
+                            {
+                                "name": "Average Annual Employment, Total Private",
+                                "code": "C073"
+                            },
+                            {
+                                "name": "Average Annual Employment, Natural Resources and Mining",
+                                "code": "C074"
+                            },
+                            {
+                                "name": "Average Annual Employment, Construction",
+                                "code": "C075"
+                            },
+                            {
+                                "name": "Average Annual Employment, Manufacturing",
+                                "code": "C076"
+                            },
+                            {
+                                "name": "Average Annual Employment, Trade, Transportation and Utilities",
+                                "code": "C077"
+                            },
+                            {
+                                "name": "Average Annual Employment, Information",
+                                "code": "C078"
+                            },
+                            {
+                                "name": "Average Annual Employment, Financial Activities",
+                                "code": "C079"
+                            },
+                            {
+                                "name": "Average Annual Employment, Professional and Business Services",
+                                "code": "C080"
+                            },
+                            {
+                                "name": "Average Annual Employment, Education and Health Services",
+                                "code": "C081"
+                            },
+                            {
+                                "name": "Average Annual Employment, Leisure and Hospitality",
+                                "code": "C082"
+                            },
+                            {
+                                "name": "Average Annual Employment, Other Services",
+                                "code": "C083"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Federal Government (%)",
+                                "code": "C084"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, State Government (%)",
+                                "code": "C085"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Local Government (%)",
+                                "code": "C086"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Total Government (%)",
+                                "code": "C087"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Total Private (%)",
+                                "code": "C088"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Natural Resources and Mining (%)",
+                                "code": "C089"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Construction (%)",
+                                "code": "C090"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Manufacturing (%)",
+                                "code": "C091"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Trade, Transportation and Utilities (%)",
+                                "code": "C092"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Information (%)",
+                                "code": "C093"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Financial Activities (%)",
+                                "code": "C094"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Professional and Business Services (%)",
+                                "code": "C095"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Education and Health Services (%)",
+                                "code": "C096"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Leisure and Hospitality (%)",
+                                "code": "C097"
+                            },
+                            {
+                                "name": "Percentage of Total Employment, Other Services (%)",
+                                "code": "C098"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wages",
+                        "table": "cnty_workforce_wages",
+                        "criteria": [
+                            {
+                                "name": "Average Weekly Wage, Total",
+                                "code": "C099"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Federal Government",
+                                "code": "C100"
+                            },
+                            {
+                                "name": "Average Weekly Wage, State Government",
+                                "code": "C101"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Local Government",
+                                "code": "C102"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Total Government",
+                                "code": "C103"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Total Private",
+                                "code": "C104"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Natural Resources and Mining",
+                                "code": "C105"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Construction",
+                                "code": "C106"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Manufacturing",
+                                "code": "C107"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Trade, Transportation and Utilities",
+                                "code": "C108"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Information",
+                                "code": "C109"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Financial Activities",
+                                "code": "C110"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Professional and Business Services",
+                                "code": "C111"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Education and Health Services",
+                                "code": "C112"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Leisure and Hospitality",
+                                "code": "C113"
+                            },
+                            {
+                                "name": "Average Weekly Wage, Other Services",
+                                "code": "C114"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Establishments",
+                        "table": "cnty_workforce_establishments",
+                        "criteria": [
+                            {
+                                "name": "Number of Business Establishments",
+                                "code": "C115"
+                            },
+                            {
+                                "name": "Number of Business Establishments with 100 or More Workers",
+                                "code": "C116"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "states":{
+        "category": [
+            {
+                "name": "Demographics",
+                "subcategory": [
+                    {
+                        "name": "Population",
+                        "table": "cnty_population",
+                        "criteria": [
+                            {
+                                "name": "Total Population, 2010 ",
+                                "code": "S001",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Total Population, 2012 ",
+                                "code": "S002",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Total Population, 2000 ",
+                                "code": "S003",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Change, 2000-2010 ",
+                                "code": "S004",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Median Age",
+                                "code": "S005",
+                                "source": "U.S. Census Bureau"
+                            },
+                            {
+                                "name": "Population Density",
+                                "code": "S006",
+                                "source": "U.S. Census Bureau"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Income",
+                        "criteria": [
+                            {
+                                "name": "Median Household Income ($)",
+                                "code": "S007"
+                            },
+                            {
+                                "name": "Per Capita Personal Income ($)",
+                                "code": "S008"
+                            },
+                            {
+                                "name": "Poverty Rate (%)",
+                                "code": "S009"
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                "name": "Education",
+                "subcategory": [
+                    {
+                        "name": "Educational Attainment",
+                        "table": "cnty_education_attainment",
+                        "criteria": [
+                            {
+                                "name": "Bachelor's Degree Attainment (%)",
+                                "code": "S010"
+                            },
+                            {
+                                "name": "Graduate Degree Attainment  (%)",
+                                "code": "S011"
+                            },
+                            {
+                                "name": "High School Attainment (%)",
+                                "code": "S012"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Higher Education",
+                        "table": "cnty_education_higher",
+                        "criteria": [
+                            {
+                                "name": "Annual College Graduates ",
+                                "code": "S013"
+                            },
+                            {
+                                "name": "Number of 2-Year Colleges",
+                                "code": "S014"
+                            },
+                            {
+                                "name": "Number of 4-Year Colleges and Universities",
+                                "code": "S015"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "K through 12",
+                        "table": "cnty_educationk12",
+                        "criteria": [
+                            {
+                                "name": "Public School Student-Teacher Ratio ",
+                                "code": "S016"
+                            },
+                            {
+                                "name": "Public School Expenditures Per Pupil ($)",
+                                "code": "S017"
+                            },
+                            {
+                                "name": "Average Salary for Public School Teachers ($)",
+                                "code": "S018"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Business Support",
+                "subcategory": [
+                    {
+                        "name": "Government",
+                        "criteria": [
+                            {
+                                "name": "Federal Government Expenditures, Total ($ millions)",
+                                "code": "S019"
+                            },
+                            {
+                                "name": "Federal Government Expenditures, Per Capita ($)",
+                                "code": "S020"
+                            },
+                            {
+                                "name": "Federal Government Procurement, Total ($ millions)",
+                                "code": "S021"
+                            },
+                            {
+                                "name": "Federal Government Procurement, Per Capita",
+                                "code": "S022"
+                            },
+                            {
+                                "name": "Defense Department Expenditures, Total ($ millions)",
+                                "code": "S023"
+                            },
+                            {
+                                "name": "Defense Department Expenditures, Per Capita ($)",
+                                "code": "S024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Economy",
+                "subcategory": [
+                    {
+                        "name": "Gross Domestic Product",
+                        "criteria": [
+                            {
+                                "name": "Gross Domestic Product ($ millions) ",
+                                "code": "S025"
+                            },
+                            {
+                                "name": "Gross Domestic Product per Capita ",
+                                "code": "S026"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Quality Of Life",
+                "subcategory": [
+                    {
+                        "name": "Public Safety",
+                        "criteria": [
+                            {
+                                "name": "Property Crime Rate",
+                                "code": "S027"
+                            },
+                            {
+                                "name": "Violent Crime Rate",
+                                "code": "S028"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Taxes",
+                "subcategory": [
+                    {
+                        "name": "Corporate Taxes",
+                        "criteria": [
+                            {
+                                "name": "State Corporate Income Tax Top Rate (%)",
+                                "code": "S029"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Personal Income Taxes",
+                        "criteria": [
+                            {
+                                "name": "State Individual Income Tax Top Rate (%)",
+                                "code": "S030"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sales Taxes",
+                        "criteria": [
+                            {
+                                "name": "State Sales Tax Rate (%)",
+                                "code": "S031"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Unemployment Insurance",
+                        "criteria": [
+                            {
+                                "name": "Unemployment Insurance Average Tax Rate on Total Wages (%)",
+                                "code": "S032"
+                            },
+                            {
+                                "name": "Unemployment Insurance Taxable Wage Base ",
+                                "code": "S033"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tax Burden",
+                        "criteria": [
+                            {
+                                "name": "State and Local Tax Revenue as a Percentage of Income (%)",
+                                "code": "S034"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Technology",
+                "subcategory": [
+                    {
+                        "name": "Federal Research & Development",
+                        "criteria": [
+                            {
+                                "name": "Federal R&D Spending/Obligations ($ thousands) ",
+                                "code": "S035"
+                            },
+                            {
+                                "name": "National Institutes of Health R&D Contract Awards ",
+                                "code": "S036"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Patents",
+                        "criteria": [
+                            {
+                                "name": "Number of Patents Issued per 100,000 Population ",
+                                "code": "S037"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SBIR",
+                        "criteria": [
+                            {
+                                "name": "SBIR Awards, Value Per Capita ",
+                                "code": "S038"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Utilities",
+                "subcategory": [
+                    {
+                        "name": "Electric",
+                        "criteria": [
+                            {
+                                "name": "Average Retail Price Per kWh, Industrial ($)",
+                                "code": "S039"
+                            },
+                            {
+                                "name": "Average Retail Price Per kWh, Commercial ($)",
+                                "code": "S040"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gas",
+                        "criteria": [
+                            {
+                                "name": "Natural Gas, Average Cost per Thousand Cubic Feet, Commercial ($)",
+                                "code": "S041"
+                            },
+                            {
+                                "name": "Natural Gas, Average Cost per Thousand Cubic Feet, Industrial ($)",
+                                "code": "S042"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Workforce",
+                "subcategory": [
+                    {
+                        "name": "Availability",
+                        "criteria": [
+                            {
+                                "name": "Civilian Labor Force ",
+                                "code": "S043"
+                            },
+                            {
+                                "name": "Employment",
+                                "code": "S044"
+                            },
+                            {
+                                "name": "Unemployment",
+                                "code": "S045"
+                            },
+                            {
+                                "name": "Unemployment Rate (%)",
+                                "code": "S046"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Total (%)",
+                                "code": "S047"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Male (%)",
+                                "code": "S048"
+                            },
+                            {
+                                "name": "Labor Force Participation Rate, Female (%)",
+                                "code": "S049"
+                            },
+                            {
+                                "name": "Professional and Technical Workers as a Percentage of Workforce (%)",
+                                "code": "S050"
+                            },
+                            {
+                                "name": "Doctoral Scientists and Engineers per 100,000 Workers",
+                                "code": "S051"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "metros":{
+        "category": [
+            {
+                "name": "Demographics",
+                "subcategory": [
+                    {
+                        "name": "Population",
+                        "criteria": [
+                            {
+                                "name": "Total Population, 2012 ",
+                                "code": "M001"
+                            },
+                            {
+                                "name": "Total Population, 2010 ",
+                                "code": "M002"
+                            },
+                            {
+                                "name": "Total Population, 2000",
+                                "code": "M003"
+                            },
+                            {
+                                "name": "Population Percentage Change, 2000-2010 (%)",
+                                "code": "M004"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Income",
+                        "criteria": [
+                            {
+                                "name": "Per Capita Personal Income ($)",
+                                "code": "M005"
+                            },
+                            {
+                                "name": "Total Personal Income ($ thousands) ",
+                                "code": "M006"
+                            },
+                            {
+                                "name": " Median Household Income ($)",
+                                "code": "M007"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Education",
+                "subcategory":[
+                    {
+                        "name": "Educational Attainment",
+                        "criteria": [
+                            {
+                                "name": "Bachelor's Degree Attainment (%)",
+                                "code": "M008"
+                            },
+                            {
+                                "name": "High School Attainment (%)",
+                                "code": "M009"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Quality of Life",
+                "subcategory":[
+                    {
+                        "name": "Housing",
+                        "criteria": [
+                            {
+                                "name": "Median Selling Price, Existing Homes ($)",
+                                "code": "M010"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Economy",
+                "subcategory":[
+                    {
+                        "name": "Gross Domestic Product",
+                        "criteria": [
+                            {
+                                "name": "Gross Domestic Product ($ millions)",
+                                "code": "M011"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Workforce",
+                "subcategory": [
+                    {
+                        "name": "Availability",
+                        "criteria": [
+                            {
+                                "name": "Civilian Labor Force",
+                                "code": "M012"
+                            },
+                            {
+                                "name": "Employment",
+                                "code": "M013"
+                            },
+                            {
+                                "name": "Unemployment ",
+                                "code": "M014"
+                            },
+                            {
+                                "name": "Unemployment Rate (%)",
+                                "code": "M015"
+                            },
+                            {
+                                "name": "Professional and Technical Workers as a Percentage of Workforce (%)",
+                                "code": "M016"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wages",
+                        "criteria": [
+                            {
+                                "name": "Median Hourly Wage, Secretaries ",
+                                "code": "M017"
+                            },
+                            {
+                                "name": "Median Hourly Wage, Computer Systems Analysts ",
+                                "code": "M018"
+                            },
+                            {
+                                "name": "Median Hourly Wage, Freight, Stock and Material Movers",
+                                "code": "M019"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

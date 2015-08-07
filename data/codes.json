@@ -1,0 +1,932 @@
+[
+    {
+        "column": "total_pop_2010",
+        "code": "C001",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "total_pop_2011",
+        "code": "C002",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "total_pop_2000",
+        "code": "C003",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_change_2000_2010",
+        "code": "C004",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_perc_change_2000_2010",
+        "code": "C005",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_total_1990",
+        "code": "C006",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_change_1990_2000",
+        "code": "C007",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_perc_change_1990_2000",
+        "code": "C008",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "pop_density_sqmi",
+        "code": "C009",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "median_age",
+        "code": "C010",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "median_household_income",
+        "code": "C011",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "personal_income_per_capita",
+        "code": "C012",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "personal_income_total",
+        "code": "C013",
+        "uid": "pa7d-u6hs"
+    },
+    {
+        "column": "bachelors_degree_attainment",
+        "code": "C014",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "high_school_attainment",
+        "code": "C015",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_2yr_colleges",
+        "code": "C016",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_4yr_colleges_universities",
+        "code": "C017",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "enrollment_2yr_college",
+        "code": "C018",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "enrollment_4yr_college_university",
+        "code": "C019",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "public_school_enrollment_elementary",
+        "code": "C020",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "public_school_enrollment_secondary",
+        "code": "C021",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "public_school_enrollment_total",
+        "code": "C022",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "annual_number_of_public_high_school_graduates",
+        "code": "C023",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "students_career_technical_programs",
+        "code": "C024",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "public_student_teacher_ratio",
+        "code": "C025",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "public_school_expenditures_per_pupil",
+        "code": "C026",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "avg_salary_public_school_teachers",
+        "code": "C027",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_public_elementary_schools",
+        "code": "C028",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_public_middle_schools",
+        "code": "C029",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_public_high_schools",
+        "code": "C030",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_public_schools_total",
+        "code": "C031",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "number_private_schools",
+        "code": "C032",
+        "uid": "63pe-mygy"
+    },
+    {
+        "column": "cost_of_living_index",
+        "code": "C033",
+        "uid": "dyym-bjv4"
+    },
+    {
+        "column": "crime_rate_per_100k",
+        "code": "C034",
+        "uid": "dyym-bjv4"
+    },
+    {
+        "column": "avg_sale_price_home",
+        "code": "C035",
+        "uid": "dyym-bjv4"
+    },
+    {
+        "column": "median_sale_price_home",
+        "code": "C036",
+        "uid": "dyym-bjv4"
+    },
+    {
+        "column": "housing_units_sold",
+        "code": "C037",
+        "uid": "dyym-bjv4"
+    },
+    {
+        "column": "county_seat",
+        "code": "C038",
+        "uid": "ymgk-yjg2"
+    },
+    {
+        "column": "form_of_government",
+        "code": "C039",
+        "uid": "ymgk-yjg2"
+    },
+    {
+        "column": "land_area_sqmi",
+        "code": "C040",
+        "uid": "mfac-nzpe"
+    },
+    {
+        "column": "highest_elevation_ft",
+        "code": "C041",
+        "uid": "mfac-nzpe"
+    },
+    {
+        "column": "lowest_elevation_ft",
+        "code": "C042",
+        "uid": "mfac-nzpe"
+    },
+    {
+        "column": "shoreline_mi",
+        "code": "C043",
+        "uid": "mfac-nzpe"
+    },
+    {
+        "column": "distance_commercial_airport",
+        "code": "C044",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "avg_work_commute",
+        "code": "C045",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "workers_commuting_into_cnty",
+        "code": "C046",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "workers_commuting_out_cnty",
+        "code": "C047",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "workers_commuting_in_out_cnty",
+        "code": "C048",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "residents_work_own_cnty",
+        "code": "C049",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "perc_residents_employed_own_cnty",
+        "code": "C050",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "perc_cnty_jobs_residents",
+        "code": "C051",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "perc_cnty_jobs_non_residents",
+        "code": "C052",
+        "uid": "ief7-i74z"
+    },
+    {
+        "column": "local_personal_income_tax",
+        "code": "C053",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "combined_state_and_county_real_property_tax_rate",
+        "code": "C054",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "county_business_personal_property_tax",
+        "code": "C055",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "manufacturing_rd_equipment_exemption",
+        "code": "C056",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "manufacturing_rd_inventory_exemption",
+        "code": "C057",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "commercial_inventory_exemption",
+        "code": "C058",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "acreage_state_enterprise_zones",
+        "code": "C059",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "one_maryland_jurisdictions",
+        "code": "C060",
+        "uid": "9rx9-sduc"
+    },
+    {
+        "column": "laborforce",
+        "code": "C061",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "employment",
+        "code": "C062",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "unemployment",
+        "code": "C063",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "unemployment_rate",
+        "code": "C064",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "laborforce_participation_rate_male",
+        "code": "C065",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "laborforce_participation_rate_female",
+        "code": "C066",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "laborforce_participation_rate_total",
+        "code": "C067",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "business_establishments",
+        "code": "C115",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "business_establishments_workers_100plus",
+        "code": "C116",
+        "uid": "w2fp-ynza"
+    },
+    {
+        "column": "avg_annual_employment_total",
+        "code": "C068",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_fed_govt",
+        "code": "C069",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_state_govt",
+        "code": "C070",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_local_govt",
+        "code": "C071",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_total_govt",
+        "code": "C072",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_total_private",
+        "code": "C073",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_nat_resources_mining",
+        "code": "C074",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_construction",
+        "code": "C075",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_manufacturing",
+        "code": "C076",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_trade_trans_utilities",
+        "code": "C077",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_information",
+        "code": "C078",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_finance",
+        "code": "C079",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_professional_svc",
+        "code": "C080",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_ed_health_svc",
+        "code": "C081",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_leisure_hospitality",
+        "code": "C082",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_annual_employment_other_svc",
+        "code": "C083",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_fed_govt",
+        "code": "C084",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_state_govt",
+        "code": "C085",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_local_govt",
+        "code": "C086",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_total_govt",
+        "code": "C087",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_total_private",
+        "code": "C088",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_nat_resources_mining",
+        "code": "C089",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_construction",
+        "code": "C090",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_manufacturing",
+        "code": "C091",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_trade_trans_utilities",
+        "code": "C092",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_information",
+        "code": "C093",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_finance",
+        "code": "C094",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_professional_svc",
+        "code": "C095",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_ed_health_svc",
+        "code": "C096",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_leisure_hospitality",
+        "code": "C097",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "perc_total_employment_other_svc",
+        "code": "C098",
+        "uid": "yjfs-tinc"
+    },
+    {
+        "column": "avg_wkly_wage_total",
+        "code": "C099",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_federal_govt",
+        "code": "C100",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_state_govt",
+        "code": "C101",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_local_govt",
+        "code": "C102",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_total_govt",
+        "code": "C103",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_total_private",
+        "code": "C104",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_nat_resources_mining",
+        "code": "C105",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_construction",
+        "code": "C106",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_manufacturing_dollars",
+        "code": "C107",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_trade_trans_utilities",
+        "code": "C108",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_information",
+        "code": "C109",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_finance",
+        "code": "C110",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_professional_svc",
+        "code": "C111",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_ed_health_svc",
+        "code": "C112",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_leisure_hospitality",
+        "code": "C113",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "avg_wkly_wage_other_svc",
+        "code": "C114",
+        "uid": "n2mv-inys"
+    },
+    {
+        "column": "total_population_2010",
+        "code": "S001",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "total_population_2012",
+        "code": "S002",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "total_population_2000",
+        "code": "S003",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "pop_perc_change_2000_2010",
+        "code": "S004",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "median_age",
+        "code": "S005",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "population_density",
+        "code": "S006",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "median_household_income",
+        "code": "S007",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "percapita_personal_income",
+        "code": "S008",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "poverty_rate",
+        "code": "S009",
+        "uid": "8mc4-hxm7"
+    },
+    {
+        "column": "bachelors_degree_attainment",
+        "code": "S010",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "graduate_degree_attainment",
+        "code": "S011",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "high_school_attainment",
+        "code": "S012",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "annual_college_graduates",
+        "code": "S013",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "num_2yr_colleges",
+        "code": "S014",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "num_4yr_colleges_universities",
+        "code": "S015",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "public_student_teacher_ratio_k12",
+        "code": "S016",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "public_pupil_expenditures_k12",
+        "code": "S017",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "avg_salary_public_teachers_k12",
+        "code": "S018",
+        "uid": "3bkz-cttp"
+    },
+    {
+        "column": "federal_expenditures_total",
+        "code": "S019",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "federal_expenditures_per_capita",
+        "code": "S020",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "federal_procurement_total",
+        "code": "S021",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "federal_procurement_per_capita",
+        "code": "S022",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "defense_expenditures_total",
+        "code": "S023",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "defense_expenditures_per_capita",
+        "code": "S024",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "gdp",
+        "code": "S025",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "gdp_per_capita",
+        "code": "S026",
+        "uid": "geg8-jvxn"
+    },
+    {
+        "column": "property_crime_rate",
+        "code": "S027",
+        "uid": "cz6x-aq2i"
+    },
+    {
+        "column": "violent_crime_rate",
+        "code": "S028",
+        "uid": "cz6x-aq2i"
+    },
+    {
+        "column": "state_corporate_income_taxrate",
+        "code": "S029",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "state_individual_income_taxrate",
+        "code": "S030",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "state_sales_taxrate",
+        "code": "S031",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "ui_avg_taxrate_total_wages",
+        "code": "S032",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "ui_taxable_wagebase",
+        "code": "S033",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "state_local_tax_revenue_perc_income",
+        "code": "S034",
+        "uid": "t833-r94z"
+    },
+    {
+        "column": "federal_rd_spending_obligations",
+        "code": "S035",
+        "uid": "enjg-rjqz"
+    },
+    {
+        "column": "nih_rd_awards",
+        "code": "S036",
+        "uid": "enjg-rjqz"
+    },
+    {
+        "column": "patents_per_100k",
+        "code": "S037",
+        "uid": "enjg-rjqz"
+    },
+    {
+        "column": "sbir_awards_per_capita",
+        "code": "S038",
+        "uid": "enjg-rjqz"
+    },
+    {
+        "column": "electric_industrial",
+        "code": "S039",
+        "uid": "su2w-hm7s"
+    },
+    {
+        "column": "electric_commercial",
+        "code": "S040",
+        "uid": "su2w-hm7s"
+    },
+    {
+        "column": "natural_gas_commercial",
+        "code": "S041",
+        "uid": "su2w-hm7s"
+    },
+    {
+        "column": "natural_gas_industrial",
+        "code": "S042",
+        "uid": "su2w-hm7s"
+    },
+    {
+        "column": "civilian_laborforce",
+        "code": "S043",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "employment",
+        "code": "S044",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "unemployment",
+        "code": "S045",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "unemployment_rate",
+        "code": "S046",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "laborforce_rate_total",
+        "code": "S047",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "laborforce_rate_male",
+        "code": "S048",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "laborforce_rate_female",
+        "code": "S049",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "professional_technical_workers",
+        "code": "S050",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "scientists_engineers_per100k",
+        "code": "S051",
+        "uid": "5esm-neyf"
+    },
+    {
+        "column": "total_population_2011",
+        "code": "M001",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "total_population_2010",
+        "code": "M002",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "total_population_2000",
+        "code": "M003",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "population_perc_change_2000_2010",
+        "code": "M004",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "per_capita_personal_income_dollars",
+        "code": "M005",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "total_personal_income_thousands",
+        "code": "M006",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "median_household_income_dollars",
+        "code": "M007",
+        "uid": "h2qn-scd8"
+    },
+    {
+        "column": "bachelors_attainment",
+        "code": "M008",
+        "uid": "tybw-nzqj"
+    },
+    {
+        "column": "high_school_attainment",
+        "code": "M009",
+        "uid": "tybw-nzqj"
+    },
+    {
+        "column": "med_selling_price_existing_homes",
+        "code": "M010",
+        "uid": "yjpu-x8hr"
+    },
+    {
+        "column": "gdp",
+        "code": "M011",
+        "uid": "evyv-ezm8"
+    },
+    {
+        "column": "civilian_laborforce",
+        "code": "M012",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "employment",
+        "code": "M013",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "unemployment",
+        "code": "M014",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "unemployment_rate",
+        "code": "M015",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "professional_technical_workers_workforce",
+        "code": "M016",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "med_hrly_wage_secretaries",
+        "code": "M017",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "med_hrly_wage_computer_analysts",
+        "code": "M018",
+        "uid": "6s7m-7deg"
+    },
+    {
+        "column": "med_hrly_wage_stock_movers",
+        "code": "M019",
+        "uid": "6s7m-7deg"
+    }
+]

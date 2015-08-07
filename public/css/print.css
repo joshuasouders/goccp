@@ -1,0 +1,25 @@
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+.chart-wrap {
+  page-break-inside: avoid;
+}
+
+.header, #top-row, #middle-row, .footer {
+  display: none;
+}
+
+.bar {
+  opacity: 1;
+}
+
+.barchart-html .axis .line {
+  width: 1px;
+  background: #ccc !important;
+  position: absolute;
+}
+
