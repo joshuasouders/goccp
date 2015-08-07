@@ -13,12 +13,12 @@ window.App.HomeView = Backbone.View.extend({
     this.$el.html(this.template())
   },
   launchCounties: function(e) {
-    window.location = '/dashboards/countycomparison/#compare/counties/set/overview'
+    window.location = '#compare/counties/set/overview'
   },
   launchStates: function(e) {
-    window.location = '/dashboards/countycomparison/#compare/states/set/overview'
+    window.location = '#compare/states/set/overview'
   },
   launchMetros: function(e) {
-    window.location = '/dashboards/countycomparison/#compare/metros/set/overview'
+    window.location = '#compare/metros/set/overview'
   }
 })
